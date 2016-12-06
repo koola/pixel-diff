@@ -1,47 +1,48 @@
 {
-    "name": "pixel-diff",
-    "version": "1.0.0",
-    "description": "A lightweight image comparison tool",
-    "main": "index.js",
-    "scripts": {
-        "test": "node_modules/.bin/grunt"
-    },
-    "contributors": [],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/koola/pixel-diff.git"
-    },
-    "keywords": [
-        "image-diff",
-        "image-comparison",
-        "protractor",
-        "blink-diff",
-        "screenshot",
-        "pix",
-        "diff",
-        "difference",
-        "comparison",
-        "compare"
-    ],
-    "author": "Koola",
-    "license": "MIT",
-    "engines": {
-        "npm": ">=3.0.0",
-        "node": ">=4.6.0"
-    },
-    "dependencies": {
-        "pngjs-image": "~0.11.2",
-        "promise": "6.0.0"
-    },
-    "devDependencies": {
-        "chai": "1.9.2",
-        "grunt": "^1.0.1",
-        "grunt-bump": "^0.8.0",
-        "grunt-contrib-jshint": "^1.0.0",
-        "grunt-conventional-changelog": "^6.1.0",
-        "grunt-jsdoc-to-markdown": "^2.0.0",
-        "grunt-run": "^0.6.0",
-        "load-grunt-tasks": "^3.5.0",
-        "mocha": "1.21.4"
-    }
+	"name": "pixel-diff",
+	"version": "1.0.0",
+	"description": "A lightweight image comparison tool",
+	"main": "index.js",
+	"scripts": {
+		"test": "node_modules/.bin/grunt"
+	},
+	"contributors": [],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/koola/pixel-diff.git"
+	},
+	"keywords": [
+		"image-diff",
+		"image-comparison",
+		"protractor",
+		"blink-diff",
+		"screenshot",
+		"pix",
+		"diff",
+		"difference",
+		"comparison",
+		"compare"
+	],
+	"author": "Koola",
+	"license": "MIT",
+	"engines": {
+		"npm": ">=3.0.0",
+		"node": ">=4.6.0"
+	},
+	"dependencies": {
+		"pngjs-image": "~0.11.2",
+		"promise": "6.0.0"
+	},
+	"devDependencies": {
+		"chai": "1.9.2",
+		"grunt": "1.0.1",
+		"grunt-bump": "0.8.0",
+		"grunt-contrib-jshint": "1.0.0",
+		"grunt-contributors": "0.0.3",
+		"grunt-conventional-changelog": "6.1.0",
+		"grunt-jsdoc-to-markdown": "2.0.0",
+		"grunt-run": "0.6.0",
+		"load-grunt-tasks": "3.5.0",
+		"mocha": "1.21.4"
+	}
 }

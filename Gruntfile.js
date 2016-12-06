@@ -43,12 +43,6 @@ module.exports = grunt => {
             }
         },
 
-        contributors: {
-            options: {
-                commit: false
-            }
-        },
-
         bump: {
             options: {
                 files: ['package.json'],
