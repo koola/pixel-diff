@@ -43,6 +43,12 @@ module.exports = grunt => {
             }
         },
 
+        contributors: {
+            options: {
+                commitMessage: 'chore(npm) update contributors'
+            }
+        },
+
         bump: {
             options: {
                 files: ['package.json'],
