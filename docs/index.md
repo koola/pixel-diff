@@ -303,7 +303,7 @@ Runs the comparison with a promise
 **Kind**: global function  
 **Example**  
 ```js
-var pixelDiff = PixelDiff(...);
+const pixelDiff = new PixelDiff(...);
     pixelDiff.runWithPromise().then(result => {
       ...
     });
@@ -321,12 +321,11 @@ Runs the comparison in node-style
 
 **Example**  
 ```js
-var pixelDiff = PixelDiff(...);
+const pixelDiff = new PixelDiff(...);
     pixelDiff.run((err, result) => {
       if (err) {
         throw err;
       }
-
       ...
     });
 ```
@@ -337,6 +336,16 @@ Runs the comparison synchronously
 
 **Kind**: global function  
 **Returns**: <code>Object</code> - Result of comparison { code, differences, dimension, width, height }  
+**Example**  
+```js
+const pixelDiff = new PixelDiff(...);
+    try {
+      let result = pixelDiff.runSync();
+      ...
+    } catch(err) {
+        throw err;
+    }
+```
 <a name="isAboveThreshold"></a>
 
 ## isAboveThreshold(items, [total]) ⇒ <code>boolean</code>

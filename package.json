@@ -1,12 +1,25 @@
 {
 	"name": "pixel-diff",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A lightweight image comparison tool",
 	"main": "index.js",
 	"scripts": {
 		"test": "node_modules/.bin/grunt"
 	},
-	"contributors": [],
+	"contributors": [
+		{
+			"name": "koola",
+			"email": "koola@users.noreply.github.com"
+		},
+		{
+			"name": "koola",
+			"email": "koola@users.noreply.github.com"
+		},
+		{
+			"name": "koola",
+			"email": "koola@users.noreply.github.com"
+		}
+	],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/koola/pixel-diff.git"
