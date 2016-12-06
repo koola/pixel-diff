@@ -38,7 +38,7 @@ let diff = new PixelDiff({
     imageAPath: 'path/to/first/image',
     imageBPath: 'path/to/second/image',
 
-    thresholdType: BlinkDiff.THRESHOLD_PERCENT,
+    thresholdType: PixelDiff.THRESHOLD_PERCENT,
     threshold: 0.01, // 1% threshold
 
     imageOutputPath: 'path/to/output/image'
