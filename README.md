@@ -75,4 +75,4 @@ Add tests for any new or changed functionality. Lint and test your code using
 
 Licensed under the MIT license.
 
-Copyright (c) 2016 Koola.
+Copyright (c) 2018 Koola.
